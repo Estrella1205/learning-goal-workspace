@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时与本地文件
+*.local
+*.tmp
+*.log
+_env.txt
+_*_check.js
+
+# 凭据（永远不要提交）
+.env
+.env.*
+*.pem
+*.key
+credentials.json
