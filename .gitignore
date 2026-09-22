@@ -14,12 +14,11 @@ desktop.ini
 .idea/
 *.swp
 
-# 临时与本地文件
+# 临时与本地文件（下划线开头的探测/中间文件一律不提交）
+_*
 *.local
 *.tmp
 *.log
-_env.txt
-_*_check.js
 
 # 凭据（永远不要提交）
 .env
